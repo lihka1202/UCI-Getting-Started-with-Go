@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 func main() {
-	s := strings.Replace("ianianian", "ni", "in", 2)
-	fmt.Println(s)
-
+	s := make([]int, 0, 3)
+	s = append(s, 100)
+	fmt.Println(len(s), cap(s))
 }
